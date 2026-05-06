@@ -10,6 +10,10 @@ app.get("/about", (req, res) => {
   res.send("About Page");
 });
 
+app.get("/login", (req, res) => {
+  res.send("Login Page");
+});
+
 app.listen(3000, () => {
   console.log("Server running on port 3000");
 });
